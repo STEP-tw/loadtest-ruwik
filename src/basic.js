@@ -3,13 +3,18 @@
   This function takes a number and returns true or false
   based on whether the number is even or not
 */
+const isEven = function(number){
+  return (number%2)===0;
+};
 
 /*
   isOdd
   This function takes a number and returns true or false
   based on whether the number is odd or not
 */
-
+const isOdd = function(number){
+    return (number%2)!==0;
+};
 /*
   square
   This function takes a number and returns the mathematical square
